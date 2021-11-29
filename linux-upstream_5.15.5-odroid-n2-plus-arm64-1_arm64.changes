@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 26 Nov 2021 17:43:00 +0000
+Source: linux-upstream
+Binary: linux-headers-5.15.5-odroid-n2-plus-arm64 linux-image-5.15.5-odroid-n2-plus-arm64 linux-libc-dev
+Architecture: arm64
+Version: 5.15.5-odroid-n2-plus-arm64-1
+Distribution: focal
+Urgency: low
+Maintainer: odroid <odroid@focal-server>
+Changed-By: odroid <odroid@focal-server>
+Description:
+ linux-headers-5.15.5-odroid-n2-plus-arm64 - Linux kernel headers for 5.15.5-odroid-n2-plus-arm64 on arm64
+ linux-image-5.15.5-odroid-n2-plus-arm64 - Linux kernel, version 5.15.5-odroid-n2-plus-arm64
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (5.15.5-odroid-n2-plus-arm64-1) focal; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ e284d4db065840c684e35ccade5d2847d67b87b7 7729344 linux-headers-5.15.5-odroid-n2-plus-arm64_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ 4b13f09e9695f11fbd7afe8ddabbbbfe629ba0f6 31499048 linux-image-5.15.5-odroid-n2-plus-arm64_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ f80e694c186d05029ea360533991690880649fa9 1177696 linux-libc-dev_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ adffa53106cbbb97ba60e769b753ed318fa04bb5 5518 linux-upstream_5.15.5-odroid-n2-plus-arm64-1_arm64.buildinfo
+Checksums-Sha256:
+ b6e7122acdfe3bd56123b8584bba55bd297abe8a712bacb03ef1cbba017928a4 7729344 linux-headers-5.15.5-odroid-n2-plus-arm64_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ f4faf8729648b15f2333f9fcecc6f12dbc63b4bdc28296979e76d90adc16bd33 31499048 linux-image-5.15.5-odroid-n2-plus-arm64_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ 47939477a561e4a6e444b4a24640660dce5381cad0bba54c504bcf8763aa4350 1177696 linux-libc-dev_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ 1b289bc8fe0efa936d5fe92cc401c17c17a826e0217cc655127b78ec91e0c689 5518 linux-upstream_5.15.5-odroid-n2-plus-arm64-1_arm64.buildinfo
+Files:
+ 3ce15e99dc8ed5a10a6d9612a3d40ce1 7729344 kernel optional linux-headers-5.15.5-odroid-n2-plus-arm64_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ f46e66e92d42f76341095aa7eeea514d 31499048 kernel optional linux-image-5.15.5-odroid-n2-plus-arm64_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ ba0727445c65b63134ae608d0febc0f4 1177696 devel optional linux-libc-dev_5.15.5-odroid-n2-plus-arm64-1_arm64.deb
+ fac1d9478e3b19ba76ca09f6b1a53227 5518 kernel optional linux-upstream_5.15.5-odroid-n2-plus-arm64-1_arm64.buildinfo
