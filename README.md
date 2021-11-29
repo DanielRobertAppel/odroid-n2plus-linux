@@ -2,7 +2,7 @@
 A repo to house my linux kernel build code and setup instructions. As well as be an affordable web host for my rendered kernels.
 
 # Compatibility
-My kernel build(s) are based upon the Ubuntu Server 20.04 available at http://docs.linuxfactory.or.kr/install/prebuilt_image.html . And the kernel fork was sourced from https://github.com/chewitt/linux/tree/amlogic-5.15.y  (which is forked from Torvalds).
+My kernel build(s) are based upon the Ubuntu Server 20.04 available at<br>http://docs.linuxfactory.or.kr/install/prebuilt_image.html<br>And the kernel fork was sourced from<br>https://github.com/chewitt/linux/tree/amlogic-5.15.y  (which is forked from Torvalds).
 
 # How I do it
 ## 00. Caveats
@@ -16,6 +16,7 @@ My kernel build(s) are based upon the Ubuntu Server 20.04 available at http://do
 
 ## 02. Clone
 _For Example: If you were wanting to make a 5.15 version build_
+<br>
 `git clone -b amlogic-5.15.y --depth 1 https://github.com/chewitt/linux`
 
 ## 03. Configure
